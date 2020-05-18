@@ -9,6 +9,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {FlexLayoutModule, FlexModule} from '@angular/flex-layout';
 import {MatButtonModule} from '@angular/material/button';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatListModule} from '@angular/material/list';
+import {RouterModule} from '@angular/router';
 
 
 
@@ -27,7 +29,8 @@ import {MatMenuModule} from '@angular/material/menu';
     MatButtonModule,
     FlexLayoutModule,
     MatMenuModule,
-  ],
+    MatListModule,
+    RouterModule,  ],
   exports: [
     HeaderComponent,
     FooterComponent,
